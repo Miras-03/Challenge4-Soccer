@@ -2,12 +2,12 @@ using UnityEngine;
 
 public class Powerup
 {
-    private Transform powerupIndicator;
-    private Transform playerTransform;
+    private UnityEngine.Transform powerupIndicator;
+    private UnityEngine.Transform playerTransform;
 
     private const int powerupStrength = 15;
 
-    public Powerup(Transform powerupIndicator, Transform playerTransform)
+    public Powerup(UnityEngine.Transform powerupIndicator, UnityEngine.Transform playerTransform)
     {
         this.powerupIndicator = powerupIndicator;
         this.playerTransform = playerTransform;

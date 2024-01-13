@@ -23,10 +23,10 @@ public sealed class Opponent : MonoBehaviour
         if (other.CompareTag("PlayerGoal"))
         {
             DecreaseCount();
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
         else if (other.CompareTag("OpponentGoal"))
-            Destroy(gameObject);
+            gameObject.SetActive(false);
     }
 
     public void DecreaseCount()

@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayerMove
 {
     private Rigidbody rb;
-    private Transform focusCentre;
+    private UnityEngine.Transform focusCentre;
     private ParticleSystem smokeParticle;
 
     private bool isTurboEnabled;
@@ -11,7 +11,7 @@ public class PlayerMove
     private const int moveSpeed = 200;
     private const int turboSpeed = 600;
 
-    public PlayerMove(Rigidbody rb, Transform focusCentre , ParticleSystem smokeParticle)
+    public PlayerMove(Rigidbody rb, UnityEngine.Transform focusCentre , ParticleSystem smokeParticle)
     {
         this.rb = rb;
         this.focusCentre = focusCentre;

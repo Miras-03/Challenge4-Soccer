@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerPowerup : MonoBehaviour
 {
-    [SerializeField] private Transform powerupIndicator;
+    [SerializeField] private UnityEngine.Transform powerupIndicator;
 
     private void FixedUpdate()
     {

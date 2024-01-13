@@ -9,8 +9,8 @@ public sealed class PlayerController : MonoBehaviour
 
     [Space(20)]
     [Header("Transforms")]
-    [SerializeField] private Transform focusCentre;
-    [SerializeField] private Transform powerupIndicator;
+    [SerializeField] private UnityEngine.Transform focusCentre;
+    [SerializeField] private UnityEngine.Transform powerupIndicator;
 
     [Space(20)]
     [Header("Particles")]
